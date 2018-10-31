@@ -7,6 +7,8 @@ source $CURRENT_DIR/shared.sh
 main() {
   if ssh_connected; then
     echo 1
+  else
+    echo 0
   fi
 }
 
